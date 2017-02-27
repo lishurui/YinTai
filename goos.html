@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/jquery.cookie.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/goods.js"></script>
+	<link rel="stylesheet" href="css/common.css"/>
+	<link rel="stylesheet" href="css/goods.css"/>
+</head>
+<body>
+	<div id="webpage">
+	<!--head-->
+		<div id="head">
+			<div id="htop">
+				<div class="wrap">
+					<ul class="ht-inlet">
+						<li class="homepage">
+							<a href="#" target="_blank">
+								<i></i>
+								银泰首页
+							</a>
+						</li>
+						<li class="separator"></li>
+						<li class="wechat">
+							<div class="wechat-wrap">
+								<a href="#" target="_blank" class="wechatLink">
+									<i></i>
+									微信
+									<em></em>
+									<!-- cover the wechatCode-div's box-shadow-top -->
+									<span class="blank"></span>
+									<div class="wechat-code code-same">
+										<img src="img/wechat.png"  alt="wechatCode"/>
+									</div>
+								</a>
+							</div>
+						</li>
+						<li class="separator"></li>
+						<li class="phone">
+							<div class="phone-wrap">
+								<a href="#" class="phoneLink">
+									<i></i>
+									手机银泰
+									<em></em>
+									<span class="blank"></span>
+									<div class="phone-code code-same">
+										<img src="img/phonecode.png"  alt="wechatCode"/>
+									</div>
+								</a>							
+							</div>
+						</li>
+					</ul>
+					<ul class="ht-login">
+						<li class="first">Hi，欢迎来到银泰网!</li>
+						<li class="username">
+							<a href="login.html" class="login">登录</a>
+							<a href="register.html">注册</a>
+							<b></b>
+						</li>
+						<li>
+							<a href="#">我的订单</a>
+							<b></b>
+						</li>
+						<li class="myYintai">
+							<div class="yintai-wrap">
+								<a href="#" class="mine">
+									我的银泰
+									<em></em>
+									<span></span>
+								</a>
+								<b></b>
+								<ul class="personal">
+									<li>
+										<a href="#">我的收藏</a>
+									</li>
+									<li>
+										<a href="#">我的余额</a>
+									</li>
+									<li>
+										<a href="#">我的银元</a>
+									</li>
+									<li>
+										<a href="#">我的银泰卡</a>
+									</li>
+									<li>
+										<a href="#">我的优惠券</a>
+									</li>
+									<li>
+										<a href="#">我的积分</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<a href="#">银泰卡</a>
+							<b></b>
+						</li>
+						<li class="last">
+							<a href="#">帮助中心</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="hposter">
+				<div class="poster-banner">
+					<a href="#"></a>
+				</div>
+			</div>
+			<div id="hlogo">
+				<div class="wrap">
+					<h1>
+						<a href="#">银泰网</a>
+						<i></i>
+					</h1>
+					<a href="#" class="shopping"></a>
+					<div class="search">
+						<div class="search-box">
+							<input type="text" value="不奢不时髦"/>
+							<button>search</button>
+							<div class="keywords-list">
+								<ul></ul>
+							</div>
+						</div>
+						<p class="search-keywords">
+							<a class="hotword" target="_blank" href="http://www.yintai.com/product/list-10002015-10002017.html">奢品放肆美</a>
+							<a target="_blank" href="http://promotion.yintai.com/20160927/mp/qdtj/index.html">街头时尚搭</a>
+							<a class="hotword" target="_blank" href="http://www.yintai.com/store/store-50000125.html?intcmp=GGW20150331_home_yundong_xinbailun">New Balance满减</a>
+						</p>
+					</div>
+					<div class="bag">
+						<a class="shoppingbag" target="_blank" href="cart.html">
+							<span>
+								购物袋
+								<b>0</b>
+								件
+							</span>
+							<i></i>
+						</a>
+						<p class="warning">
+							<a target="_blank" href="http://www.yintai.com/notice/index.shtml">关于近期有不法分子冒充银泰网名义致电客户进行诈骗的公告</a>
+						</p>
+						<div class="bagDetail">
+							购物袋中还没有商品，赶快选购吧！
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="hnav">
+				<div class="wrap">
+					<a class="total-classify" target="_blank" href="http://channel.yintai.com/category/allcategorylistmap/index.html?intcmp=GGW20141215_home_f_a6">全部分类</a>
+					<ul class="main-nav">
+						<li>
+							<a target="_blank" href="http://channel.yintai.com/miao/?intcmp=GGW20150703_home_f_wulin">银泰百货</a>
+						</li>
+						<li>
+							<a target="_blank" href="http://promotion.yintai.com/channels/mp/index.html?intcmp=GGW20141215_home_f_a2">名品馆</a>
+						</li>
+						<li>
+							<a target="_blank" href="http://temai.yintai.com/?intcmp=GGW20141215_home_f_a4">特卖</a>
+						</li>
+						<li>
+							<a target="_blank" href="http://channel.yintai.com/haitao/index.shtml?intcmp=GGW20141215_home_f_a5">海淘馆</a>
+						</li>
+					</ul>
+					<div class="integral-brand">
+						<a class="integral" target="_blank" href="http://point.yintai.com/activitylist">积分商城</a>
+						<i></i>
+						<a class="brand" target="_blank" href="http://channel.yintai.com/Brand/AllBrandsHotRecommand?intcmp=GGW20150528_home_f_a7">全部品牌</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="body">
+			<div class="wrap">
+				<div class="major">
+					<div class="major-title">
+						<span>
+							<a href="index.html">首页</a>&nbsp;>&nbsp;
+						</span>
+						<span>
+							<a href="index.html">女装</a>&nbsp;>&nbsp;
+						</span>
+						<span>
+							<a href="index.html">上装</a>&nbsp;>&nbsp;
+						</span>
+						<span>
+							<a href="index.html">外套</a>&nbsp;>&nbsp;
+						</span>
+						<span>
+							<a href="index.html">Alicedudu</a>&nbsp;>&nbsp;
+						</span>
+						<span>
+							<a href="index.html">Alicedudu半城烟沙七分袖风衣AL16A1052</a>
+						</span>
+					</div>
+					<div class="major-intro">
+						<div class="intro-left">
+							<div class="int-left">
+								<div class="img-show">
+									<div class="img-large">
+										<div class="lbox">
+											<!--<img style="width:300px;height:300px;" src="img-goods/large-c1.jpg"/>
+											<img class="img2" style="width:300px;height:300px;" src="img-goods/large-c2.jpg"/>
+											<img class="img3" style="width:300px;height:300px;" src="img-goods/large-c3.jpg"/>
+											<img class="img3" style="width:300px;height:300px;" src="img-goods/large-c4.jpg"/>-->
+										</div>
+										<span class="move"></span>
+										<span class="shade"></span>
+
+									</div>
+									<div class="img-small">
+										<div class="box">
+											<ul>
+												<!--<li><img style="width:39px;height:39px;" src="img-goods/large-c1.jpg"/></li>
+												<li class="l2"><a href="#">
+														<img style="width:39px;height:39px;" src="img-goods/cyan2.jpg"/>
+													</a></li>
+												<li>
+													<img style="width:39px;height:39px;" src="img-goods/cyan3.jpg"/>
+												</li>
+												<li>
+													<img style="width:39px;height:39px;" src="img-goods/cyan4.jpg"/>
+												</li>-->
+											</ul>
+										</div>
+									</div>
+								</div>
+
+								<ul class="contact">
+									<li class="bianhao">
+										<a href="#">商品编号：21-258-3030
+										</a>
+									<li>
+									<li class="cart">
+										
+									</li>
+									<li class="shoucang">收藏</li>
+									<li class="web"></li>
+									<li class="lianjie"></li>
+								</ul>
+								
+							</div>
+							<div class="int-right">
+								<div class="box-lar">
+									<!--<img style="width:1000px;height: 1000px;" src="img-goods/large-c1.jpg"/>
+									<img style="width:1000px;height: 1000px;display: none;" src="img-goods/large-c2.jpg"/>
+									<img style="width:1000px;height: 1000px;display: none;" src="img-goods/large-c3.jpg"/>
+									<img style="width:1000px;height: 1000px;display: none;" src="img-goods/large-c4.jpg"/>-->
+								</div>
+								<div class="intro-r">
+									<div class="name">
+										<p>古木夕阳/GMXY2106秋冬女装长款收腰羽绒服X357507</p>
+									</div>
+									<div class="miao">
+										<i><img src="img-goods/cat.png"></i>
+										<b>喵货商品</b>
+										
+									</div>
+									<div class="pricet">
+										<p>银泰价 :</p>
+										<b>￥629.00</b>		
+									</div>
+									<div class="priceb">
+										<p>参考价 :</p>
+										<b>￥1569.00</b>
+									</div>
+									<div class="active">
+										<i>满减</i>
+										<p>11.22-11.29 跨品牌 满500减100 可累计</p>
+									</div>
+									<div class="color">
+										<p>选择颜色 :</p>
+										<ul>
+											<li><a href="#">黑色</a></li>
+											<li><a href="#">绿色</a></li>
+											<li><a href="#">白色</a></li>
+											<li><a href="#">黄色</a></li>
+										</ul>
+									</div>
+									<div class="size">
+										<p>选择尺码 :</p>
+										<ul>
+											<li><a href="#">S</a></li>
+											<li><a href="#">M</a></li>
+											<li><a href="#">L</a></li>
+											<li><a href="#">XL</a></li>
+										</ul>
+									</div>
+						<!--购物车-->
+									<div class="car">
+										<div class="number-box">
+											<input type="text" value="1">
+											
+											<div class="numright">
+												<a href="javascript:;" class="top"><img src="img-goods/jia.png"></a>
+												<a href="javascript:;" class="bottom"><img src="img-goods/jian.png"></a>
+											</div>
+
+										</div>
+										<div class="mai">立即购买</div>
+										<div class="buy">
+											<i><img src="img-goods/bao.png"></i>
+											<b><a href="javascript:;">加入购物车</a></b>
+										</div>
+									</div>
+									<ul class="baozheng">
+										<li>服务承诺: √</li>
+										<li>正品保证 √</li>
+										<li>支持无理由退款 √</li>
+										<li>免运费</li>
+									</ul>
+								</div>
+							</div>
+							<!--<div class="rr"></div>-->
+						</div>
+						<div class="intro-right">
+							<div class="right-con">
+								<a href="#">
+									<img src="img-goods/brand.jpg" alt="">
+								</a>
+								<h4>
+									<a href="#">银泰百货杭州下沙店</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!--foot-->
+		<div id="foot">
+			<div class="wrap tips">
+				<p class="service">
+					<b>400-119-1111</b>
+					<i>8:00-24:00</i>
+					<em>service@yintai.com</em>
+				</p>
+				<p class="returns">
+					<span>
+						<b>15天</b>
+						无忧退换货
+					</span>
+					<em>为您提供优质售后服务</em>
+				</p>
+				<p class="promise">
+					<span>
+						<b>100%</b>
+						正品保证
+					</span>
+					<em>品质护航 购物无忧</em>
+				</p>
+				<p class="freeshipping">
+					<span>
+						<b>满199元</b>
+						免运费
+					</span>
+					<em>为您提供便利物流</em>
+				</p>
+			</div>
+			<div class="wrap link">
+				<a href="http://about.yintai.com/about/about.html" target="_blank">关于银泰</a>
+				<a href="http://www.yintai.com/help/index.html" target="_blank">帮助中心</a>
+				<a href="http://www.yintai.com/help/index.html#reRegime" target="_blank">退换货政策</a>
+				<a href="http://channel.yintai.com/category/allcategorylistmap/index.html" target="_blank">网站地图</a>
+				<a href="http://agent.yintai.com" target="_blank">代理合作</a>
+				<a href="http://about.yintai.com/about/business.html" target="_blank">品牌招商</a>
+				<a href="http://about.yintai.com/partner/partner.html" target="_blank">商务合作</a>
+				<a href="http://cps.yintai.com" target="_blank">网站联盟</a>
+				<a href="http://about.yintai.com/about/contact.html" target="_blank">联系我们</a>
+				<a href="http://about.yintai.com/about/joinus.html" target="_blank">加入银泰</a>
+				<a href="http://about.yintai.com/about/copyright.html" target="_blank">版权声明</a>
+				<a class="last" href="http://about.yintai.com/about/law.html" target="_blank">法律声明</a>
+			</div>
+			<div class="wrap copyright">
+				<p>
+					<a href="http://zcainfo.miitbeian.gov.cn" target="_blank">浙ICP备10200233号</a>
+					<a href="#">京公网安备110105019085</a>
+					<a href="#">增值电信业务经营许可证：浙B2-20110005</a>
+				</p>
+				<p>Yintai © 2016, 银泰电子商务有限公司.</p>
+			</div>
+			<div class="wrap honesty">
+				<a class="first" target="_blank" href="https://search.szfw.org/cert/l/CX20120919001675001785">
+					<img src="img/honesty1.png" alt/>
+				</a>
+				<a class="second" target="_blank" href="https://ss.knet.cn/verifyseal.dll?sn=e14042511010548347dfl3000000&ct=df&a=1&pa=0.33371597598306835">
+					<img src="img/honesty2.png" alt/>
+				</a>
+				<a class="third" target="_blank" href="http://122.224.75.236/wzba/login.do?method=hdurl&doamin=http://www.yintai.com&id=330000000047502&SHID=1223.0AFF_NAME=com.rouger.gs.main.UserInfoAff&AFF_ACTION=qyhzdetail&PAGE_URL=ShowDetail">
+					<img src="img/honesty3.gif" alt/>
+				</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

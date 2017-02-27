@@ -1,0 +1,431 @@
+html,
+body,
+div,
+h1, h2, h3, h4, h5, h6,
+p, button,
+ul, li,
+dt, dl, dd,
+span,
+i, b, em,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: normal 12px/1.5 Verdana,simsun,Sans-Serif;
+  color: #666;
+}
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+img {
+  border: 0;
+}
+#webpage #body {
+    position: relative;
+    width: 100%;
+}
+#body {
+    background-color: #f1f1f1;
+    clear: both;
+    margin: 0 auto;
+    width: auto;
+}
+#webpage{
+	min-width: 1190px;
+	background: #fff;
+}
+#webpage #body{
+  width: 100%;
+  position:relative;
+}
+.wrap{
+  width: 1190px;
+}
+#webpage #head{
+
+    background-color: #fff;
+    min-width: 1190px;
+    padding: 20px 0;
+    width: 100%;
+
+}
+#head .hdCon {
+    height: 76px;
+}
+#webpage .wrap {
+    margin: 0 auto;
+    width: 1190px;
+}
+#head .hdCon h1 {
+    float: left;
+    height: 76px;
+    margin: 0 5px 0 0;
+    width: 215px;
+}
+#head .hdCon h1 a {
+    background: rgba(0, 0, 0, 0) url("../img-login/hdLogo.gif") no-repeat scroll 0 0;
+    display: block;
+    height: 76px;
+    text-indent: -999em;
+    width: 215px;
+}
+#head .hdCon .welcome {
+    background: rgba(0, 0, 0, 0) url("../img-login/hdLogin.png") no-repeat scroll 0 0;
+    float: left;
+    height: 24px;
+    margin-top: 52px;
+    width: 124px;
+}
+#head .hdCon .hdRight {
+    float: right;
+    height: 76px;
+}
+#head .hdCon .hdRight p.returns {
+    background: rgba(0, 0, 0, 0) url("../img-login/footbg1.png") no-repeat scroll 0 -80px;
+    padding: 0 0 0 45px;
+    width: 145px;
+}
+#head .hdCon .hdRight p span {
+    color: #000;
+    display: block;
+    font-size: 16px;
+}
+#head .hdCon .hdRight p em {
+    color: #888;
+    font-style: normal;
+}
+#head .hdCon .hdRight p.promise {
+    background: rgba(0, 0, 0, 0) url("../img-login/footbg1.png") no-repeat scroll 0 -154px;
+    padding: 0 0 0 48px;
+    width: 130px;
+}
+#head .hdCon .hdRight p {
+    float: left;
+    font-family: "微软雅黑";
+    height: 41px;
+    margin-top: 35px;
+}
+#head .hdCon .hdRight p.freeshipping {
+    background: rgba(0, 0, 0, 0) url("../img-login/footbg1.png") no-repeat scroll 0 -225px;
+    padding: 0 0 0 60px;
+    width: 110px;
+}
+#head .hdCon .hdRight p span {
+    color: #000;
+    display: block;
+    font-size: 16px;
+}
+#head .hdCon .hdRight p em {
+    color: #888;
+    font-style: normal;
+}
+#head .hdCon .hdRight p span b {
+    color: #e5004f;
+    float: left;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#webpage #foot {
+    min-width: 1190px;
+    width: 100%;
+}
+#foot {
+    background-color: #fff;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+#foot .link {
+    margin-bottom: 25px;
+    text-align: center;
+}
+#foot .link a {
+    border-right: 2px solid #956695;
+    color: #757575;
+    font-size: 12px;
+    height: 12px;
+    line-height: 12px;
+    padding: 0 10px;
+}
+#foot .copyright {
+    text-align: center;
+}
+#foot .honesty {
+    padding: 10px 0 20px;
+    text-align: center;
+}
+#foot .honesty a.first {
+    height: 40px;
+    width: 112px;
+}
+#foot .honesty a {
+    display: inline-block;
+    margin: 0 12px;
+    vertical-align: middle;
+}
+
+#wrap_content{
+  background: #F1F1F1
+}
+.con{
+  width: 100%;
+  overflow: hidden;
+  padding: 60px 0 50px;}
+.con .con_left{
+  width: 780px;
+  height: 460px;
+  float: left;
+  margin-left: 88px;
+}
+.con .con_right {
+    background: white none repeat scroll 0 0;
+    float: right;
+    width: 320px; 
+    margin-right: 106px;
+}
+.con .con_right .title{
+    width: 320px;
+    height: 45px;
+    font-size: 16px;
+    line-height: 46px;
+    position: relative;
+   
+}
+.con .con_right .title span{
+    width: 50%;
+    float: left;
+    font-weight: 500;
+    text-align: center;
+    color:#666666 ;
+    border-bottom:solid 1px #eee;
+    cursor: pointer;
+}
+.con .con_right .title .active{
+    background:#E5004F;
+    color: white; 
+    border:0;
+}
+.con .con_right .title .add_Grade{
+    position: absolute;
+    width: 58px;height: 30px;
+    right: 0;
+    top: -20px;
+    background: url(../img-login/integral.png) no-repeat;
+}
+.con .con_right .con_register{
+    width: 280px;
+    padding: 0 20px;
+    overflow: hidden;
+}
+.con .con_right .con_register .min_title{
+    height: 50px;
+    line-height: 50px;
+}
+.con .con_right .con_register .min_title span{
+    float: right;
+    font-size: 9px;
+}
+.con .con_right .con_register a{
+    color: red
+}
+.con .con_right .con_register .client_list{
+    width: 280px;
+    height: 66px;
+    overflow: hidden;
+}
+.con .con_right .con_register .client_list input{
+    width: 268px;
+    height: 38px;
+    padding: 0 5px;
+    outline: none;
+    line-height: 40px;
+    font-size: 14px;
+    border:solid 1px #ccc;
+    border-radius: 2px;
+    padding: 0 5px;
+    background: #eee;
+}
+.con .con_right .con_register .client_list .tip p{
+    display: none;
+    float: left;
+}
+.con .con_right .con_register .client_list .rank span{
+    padding: 0 10px;
+    background: #CCCCCC;
+    margin-right:1px;
+    color: white;
+}
+.con .con_right .con_register .client_list .rank .left{
+    margin-left: 8px;
+}
+.con .con_right .con_register .client_list .tip{
+    height: 26px;
+    line-height:26px;
+    float: left;
+}
+.con .con_right .con_register .auth_code input{
+    width: 95px;
+    margin-right: 10px;
+    float: left; 
+}
+.con .con_right .con_register .auth_code .pic_code{
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+}
+.con .con_right .con_register .auth_code .pic_code .number{
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    border:1px solid #eee;
+    margin-right: 6px;
+}
+.con .con_right .con_register .auth_code .pic_code .tab{
+    line-height: 40px;
+    cursor:pointer;
+}
+.con .con_right .con_register .auth_code .pic_code .tab:hover{
+    color: red;
+}
+.con .con_right .con_register .client_agree{
+    height: 35px;
+     float: left;
+     color: #666666;
+ }
+.con .con_right .con_register .client_agree span input{}
+.con .con_right .con_register .client_agree span i{
+    font-style: normal;
+    color: #bbb;
+}
+.con .con_right .con_register .client_sub{
+    height: 40px;
+    text-align: center;
+    margin-bottom: 18px; 
+    clear: both;
+}
+.con .con_right .con_register .client_sub button{
+    width: 280px;
+    height: 40px;
+    line-height: 40px;
+    background: #E5004F;
+    border: 0;
+    border-radius: 2px;
+    font-size: 16px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+.error1,.error2,.error3,.error4{
+    color: red
+}
+
+.con .con_right .con_register .bottom{
+    width: 280px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.con .con_right .con_register .bottom .cooperate_title{
+    position: relative;
+}
+.con .con_right .con_register .bottom .cooperate_title>h3{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 12px;
+    height: 24px;
+    padding: 0 5px;
+    position: relative;
+    z-index: 3;
+    background: white;
+    color: #999;
+    text-align: center;
+}
+.con .con_right .con_register .bottom .cooperate_title>p{
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    background: #999;
+}
+.con .con_right .con_register .bottom .cooperate_list{
+    width: 100%;
+    height: 24px;
+}
+.con .con_right .con_register .bottom .cooperate_list>a{
+    padding: 0 5px;
+    color: #bbb;
+}
+/*-----------------------------------------二维码部分------------------------------------------*/
+.con .con_right .app_register{
+    width: 280px;
+    height: 400px;
+    padding: 0 20px;
+    overflow: hidden;
+    text-align: center;
+    display: none;
+}
+.con .con_right .app_register .a_title{
+    width: 280px;
+    padding-top: 40px;
+    font-size: 14px;
+}
+.con .con_right .app_register .a_main{
+    width: 280px;
+    height: 145px;
+    margin: 35px 0 20px;
+    position: relative;
+}
+.con .con_right .app_register .a_main .a_main_pic{
+    width: 145px;
+    height: 145px;
+    position: absolute;
+    left: 70px;
+}
+.con .con_right .app_register .a_main .a_main_pic img{
+    width: 125px;
+    height: 125px;
+    padding: 10px;
+}
+.con .con_right .app_register .a_desc{
+    margin-bottom: 20px;
+    color: #ddd;
+}
+.con .con_right .app_register .a_desc a{
+    color: #666;
+    font-size: 14px;
+}
+.con .con_right .app_register .a_desc a:hover{
+    color: red;
+}
+.con .con_right .app_register .a_tip{
+    width: 140px;
+    margin: 0 auto;
+    border:solid 1px  #E5004F;
+    padding: 3px 0;
+    color: #E5004F;
+}
+
+
+
+

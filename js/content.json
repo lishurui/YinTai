@@ -1,0 +1,36 @@
+﻿[
+	{	
+		"list":"intro1-1.jpg",
+		"list1":"intro2-1.jpg",
+		"p":"卡帕KIDS 男女大童系带跑鞋",
+		"price":"316",
+		"price2":"469",
+		"list2":"intro3-1.jpg"
+	},
+	{
+		"list":"intro1-2.jpg",
+		"list1":"intro2-2.jpg",
+		"p":"【自营】FERRAGAMO菲拉格慕暗红色牛皮材质金属logo装饰女士单肩斜挎包,649955 THALIA BRETAGNE OPERA WOMEN BAGS",
+		"price":"6889",
+		"price2":"10200",
+		"list2":"intro3-2.jpg"
+	},
+	{
+		"list":"intro1-3.jpg",
+		"list1":"intro2-3.jpg",
+		"p":"ELLE简约纯色亮钻蕾丝女士文胸",
+		"price":"189",
+		"price2":"338",
+		"list2":"intro3-3.jpg"
+		
+	},
+	{
+		"list":"intro1-4.jpg",
+		"list1":"intro2-4.jpg",
+		"p":"IZOD男士直筒修身内衬可拆卸休闲西服外套",
+		"price":"199",
+		"price2":"999",
+		"list2":"intro3-4.jpg"
+	}
+	
+]
